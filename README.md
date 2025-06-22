@@ -21,11 +21,7 @@ cd Assignment
 
 ```
 # Create virtual environment
-python -m venv venv
-```
-```
-# Activate on Windows
-venv\Scripts\activate
+python3 -m venv venv
 ```
 ```
 # Activate on macOS/Linux
@@ -36,13 +32,14 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
 Also install playwright browser binaries:
 ```
 playwright install
 ```
 ### 3. Run the Scraper
 ```
-python main.py
+python3 main.py
 ```
 
 When prompted, enter a keyword (e.g., laptop). The script will scrape 3 pages and store product data in flipkart.db.

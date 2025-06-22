@@ -12,8 +12,8 @@ class Database:
         conn.execute("""
                 create table if not exists product_info (
                 id integer primary key autoincrement,
-                title varchar(255),
-                image_url varchar(255),
+                title text,
+                image_url text,
                 price  varchar(255),
                 created_at timestamp default current_timestamp
             )

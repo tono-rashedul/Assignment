@@ -1,6 +1,5 @@
 beautifulsoup4==4.13.4
 greenlet==3.2.3
-mysql-connector-python==9.3.0
 playwright==1.52.0
 pyee==13.0.0
 soupsieve==2.7
